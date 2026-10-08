@@ -8,13 +8,5 @@
   "index": {
     "$comment": "The records this template serves: one example record."
   },
-  "records": [
-    {
-      "name": "first-note",
-      "signed": "records/first-note.signed.json",
-      "attestations": [],
-      "title": "A first signed note",
-      "extensions": { "role": "note" }
-    }
-  ]
+  "records": []
 }
