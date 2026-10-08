@@ -18,7 +18,7 @@
     "prompt": {
       "hash": "cc854b47ec831268766610e8f3fd49ce561e2b6faf31d63980198c73e3dd4030",
       "visibility": "full_text",
-      "text": "Sign the notf as a file read from disk."
+      "text": "Sign the note as a file read from disk."
     },
     "queries": [],
     "dataSources": [],
