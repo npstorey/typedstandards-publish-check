@@ -1,0 +1,42 @@
+{
+  "package": {
+    "metadata": {
+      "schemaVersion": "0.1.0",
+      "packageId": "6fa63c2d-9ee2-4333-a8d7-fd90424dca4b",
+      "createdAt": "2026-10-08T12:24:42.801Z",
+      "signingKeyId": "did:key:z6MkfvR4js3VSKzmGGw5Nk19FVymUGvG5eyBqvn4xWsQS3su",
+      "captureMethod": "script-run"
+    },
+    "producerProfile": "scripted-recomputation/typedstandards-python-publish-check",
+    "type": "content/analysis/v1",
+    "signer": {
+      "bindingTier": "pseudonymous",
+      "displayName": "typedstandards-python publish check",
+      "identifier": "did:key:z6MkfvR4js3VSKzmGGw5Nk19FVymUGvG5eyBqvn4xWsQS3su"
+    },
+    "contentCanonicalization": "https://typedstandards.org/canonicalization/raw-bytes/v1",
+    "prompt": {
+      "hash": "887f401776ab180a38f4aeecc8d591f59d5554e3b3f91526361bbe8afc403097",
+      "visibility": "full_text",
+      "text": "Sign and publish one record from the installed wheel."
+    },
+    "queries": [],
+    "dataSources": [],
+    "cost": {
+      "model": "none"
+    },
+    "skillMetadata": {},
+    "output": "{\n \"cells\": [\n  {\n   \"cell_type\": \"markdown\",\n   \"id\": \"check\",\n   \"metadata\": {},\n   \"source\": [\n    \"# Publish check\\n\\nA record signed and published by `scripts/smoke_publish.py` at 2026-10-08T12:24:42Z.\\n\"\n   ]\n  }\n ],\n \"metadata\": {},\n \"nbformat\": 4,\n \"nbformat_minor\": 5\n}\n",
+    "trace": {},
+    "contentHash": {
+      "sha256": "84fed80c7fe0a3641aa5a9240b7d1eaac6a58e8a343c0bed4c20fc5026c86af5"
+    }
+  },
+  "envelopeHash": "c18084e65a8b5c2a20687f819d438fd42eb40a656b74a8d073cf05865a53b299",
+  "signature": {
+    "signature": "D8SPqJjjyAqN/NzaYkRH3ReEzFNeb94kTVdxmfZzz9j2JfeF+yDzhwVdacGG+14QbwrqGKcAHYbs0VwiGPlADw==",
+    "publicKey": "MCowBQYDK2VwAyEAFdCRR1vBF/iMrGqzkYAvNampJL4QATl0a5V8+CrvOSg=",
+    "algorithm": "Ed25519ph",
+    "kid": "did:key:z6MkfvR4js3VSKzmGGw5Nk19FVymUGvG5eyBqvn4xWsQS3su"
+  }
+}

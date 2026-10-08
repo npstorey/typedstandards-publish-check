@@ -8,5 +8,15 @@
   "index": {
     "$comment": "The records this template serves: one example record."
   },
-  "records": []
+  "records": [
+    {
+      "name": "publish-check/2026-10-08-c18084e6",
+      "signed": "records/publish-check/2026-10-08-c18084e6.signed.json",
+      "attestations": [],
+      "title": "Publish check, 2026-10-08T12:24:42Z",
+      "extensions": {
+        "role": "notebook"
+      }
+    }
+  ]
 }
