@@ -17,6 +17,15 @@
       "extensions": {
         "role": "notebook"
       }
+    },
+    {
+      "name": "publish-check/2026-10-09-ef245b02",
+      "signed": "records/publish-check/2026-10-09-ef245b02.signed.json",
+      "attestations": [],
+      "title": "Publish check, 2026-10-09T01:03:30Z",
+      "extensions": {
+        "role": "notebook"
+      }
     }
   ]
 }
